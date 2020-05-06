@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dice Challange</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="dice.css">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="Result">
+        <h1>Click on "Play" button to start</h1>
+      </div>
+      <section>
+        <div class="row">
+          <div class="player1  col col-md-4 col-sm-12">
+            <h3>Player1</h3>
+            <img class="dice-image" src="dice6.png" alt="player1 dice">
+          </div>
+          <div class="player2 col col-md-4 col-sm-12">
+            <h3>Player2</h3>
+            <img class="dice-image" src="dice6.png" alt="player2 dice">
+          </div>
+        </div>
+      </section>
+      <div class="button">
+        <button onclick="myfunc()" class="btn btn-primary" type="button" name="button">Play</button>
+      </div>
+
+    </div>
+    <script type="text/javascript" src="dice.js" charset="utf-8">
+
+    </script>
+    <!--<script type="text/javascript">
+     `function myfunc()
+     {
+      document.getElementsByTagName("button")[0].style.backgroundColor="pink";
+    }`
+  </script>-->
+  </body>
+</html>

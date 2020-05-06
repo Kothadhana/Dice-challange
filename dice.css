@@ -1,0 +1,35 @@
+.dice-image{
+  height: 150px;
+  width: 150px;
+}
+body{
+  background-color: #dbdbdb;
+}
+h1{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color:#d8345f;
+  font-family: 'Courgette', cursive;
+  font-weight: bold;
+}
+h3{
+  color: #f40552;
+  font-family: 'Courgette', cursive;
+}
+.col{
+  text-align: center;
+}
+.row{
+  padding: 30px 50px;
+  text-align: center;
+  padding-left: 25%;
+}
+.button{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+button{
+  width: 100px;
+}
